@@ -1,0 +1,33 @@
+.categoriesContainer{
+    
+    flex-grow: 0.2;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+
+    .header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        margin: 10px;
+        align-content: center;
+        justify-content:center;
+        text-align: center;
+        flex-direction: column;     
+        
+        
+        .filterContainer{
+            padding: 5px;
+
+            .buttonCategories{
+                height: 100px;
+                width: 100px;
+
+            }
+            
+            
+        }        
+    }
+
+
+}

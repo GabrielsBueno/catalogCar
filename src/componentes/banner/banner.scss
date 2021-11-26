@@ -1,0 +1,24 @@
+//not is used
+
+
+.bannerContainer{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 30%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+
+
+    .bannerContent{
+        width: 80%;
+        max-width: 500px;
+        height: 40vw;
+        max-height: 300px;
+
+        position: relative;
+
+    }
+}

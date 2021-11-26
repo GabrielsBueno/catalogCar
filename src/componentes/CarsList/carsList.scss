@@ -1,0 +1,49 @@
+.carsList{
+    display: flex;
+    flex-grow: 3;
+    
+    flex-direction: row;
+    padding: 10px;
+    //overflow: scroll;
+    background-color: white;
+
+    .tittleContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+    }
+
+}
+
+.listCarBox{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    //border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    align-content: center;
+    justify-content:center;
+
+    &:hover{
+        background-color: rgb(208, 240, 232);
+
+        transform: scale(1.1);
+
+        &::before{
+            opacity: 0.6;
+        }
+    }
+    
+}
+
